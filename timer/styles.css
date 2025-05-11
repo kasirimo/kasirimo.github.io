@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+#countdown {
+  display: flex;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 10px;
+}
+
+#countdown > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 5px;
+  color: white;
+}
